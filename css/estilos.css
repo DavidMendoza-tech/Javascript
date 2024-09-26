@@ -1,0 +1,65 @@
+.content{
+    display: flex;
+    flex-direction: row;
+}
+.menuLateral{
+    box-sizing: border-box;
+    height: 90vh;
+    width: 15%;
+    
+}
+
+.lienzo{
+    box-sizing: border-box;
+    height: 90vh;
+    width: auto;
+    width: 84%;
+    overflow: scroll;
+    
+
+}
+.lienzoTraje{
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+}
+ .flex{
+    width: 100%;
+    height: auto;
+   
+    margin: auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    flex-wrap: nowrap;
+    
+
+  scrollbar-width: thin;
+}
+.formulario{
+    width: 100%;
+}
+.card{
+    margin: 7px;
+    width: 35s0px;
+}
+.nav-item{
+    margin-top: 8px;
+    list-style: none;
+    color: rgba(5, 2, 11, 0.882);
+}
+.navbar-nav{
+    margin-left: 10px;
+}
+form{
+width: 16rem;
+}
+.ventas{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    justify-content: space-between;
+
+}
